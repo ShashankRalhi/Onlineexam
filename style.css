@@ -1,0 +1,402 @@
+*
+{
+	padding: 0%;
+	margin: 0%;
+}
+
+#header-title
+{
+	background-color: #2F4F4F;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 3px 3px green;
+}
+
+#login
+{
+	text-align: center;
+	width: 90px;
+	float: left;
+	padding: 10px;
+	background-color: #8B0000;
+	color: white;
+	border: transparent; 
+	text-transform:uppercase;
+}
+
+.logout
+{
+	text-transform:uppercase;
+	text-align: center;
+	width: 90px;
+	padding: 10px;
+	background-color: #8B0000;
+	color: white;
+	border: transparent; 
+}
+
+#register
+{
+	text-align: center;
+	width: 150px;
+	float: right;
+	padding: 10px;
+	background-color: #8B0000;
+	color: white;
+	border: transparent;
+	text-transform:uppercase;
+}
+
+#footer-title
+{
+	background-color: #696969;
+	padding: 2% 0% 2% 5%;
+	color: white;
+}
+
+#signup
+{
+	background-color: #F5FFFA;
+}
+
+#signup form
+{
+	background-color: #FF7F50;
+	padding: 4% 10% 4% 32%; 
+}
+
+#signup form table
+{
+	padding: 10px;
+	border: 5px solid yellow;
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px yellow;
+	border-radius: 10px;
+}
+
+#signup form table th
+{
+	padding-left: 25%;
+	font-size: 40px;
+	color: white;
+	text-shadow: 1px 2px red;
+}
+
+#signup form table tr
+{
+	text-align: center;
+}
+
+
+
+#signin
+{
+	background-color: #F5FFFA;
+}
+
+#signin form
+{
+	background-color: #FF7F50;
+	padding: 8% 0% 7.5% 35%; 
+}
+
+#signin form table
+{
+	padding: 10px;
+	border: 5px solid yellow;
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px yellow;
+	border-radius: 10px;
+}
+
+#signin form table th
+{
+	padding-left: 25%;
+	font-size: 40px;
+	color: green;
+	text-shadow: 1px 2px black;
+}
+
+#signin form table tr
+{
+	text-align: center;
+}
+
+
+
+.input
+{
+	padding: 5px 0px 5px 5px;
+}
+
+#submit-button
+{
+	width: 100%;
+	padding: 4% 4% 4% 4%;
+	border: transparent;
+}
+
+#submit-button:hover
+{
+	background-color: #00FA9A;
+	color: white;
+	font-weight: bold;
+}
+
+
+#admin-head
+{
+	width: 41%;
+	padding: 20px 0px 19px 20px;
+	overflow: hidden;
+	float: left;
+	background-color: green;
+}
+
+#admin-head a
+{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+#admin-nav
+{
+	float: left;
+	width: 56%;
+	padding: 20px 0px 19px 20px;
+	background-color: green;
+}
+
+#admin-nav ul
+{
+	float: right;
+}
+
+#admin-nav ul li 
+{
+	display: inline-block;
+}
+
+#admin-nav ul li :hover
+{
+	background-color: green;
+}
+
+#admin-nav ul li a
+{
+	font-size: 20px;
+	padding: 20px 20px 20px 20px;
+	text-decoration: none;
+	color: white;
+}
+
+#admin-nav ul li a:hover
+{
+	background-color: red;
+	color: yellow;
+}
+
+#admin-user-add
+{
+	float: left;
+	width: 30%;
+	background-color: blue;
+}
+
+#admin-user-add form
+{	 
+	width: 100%;
+	background-color: pink;
+}
+
+#admin-user-add form table
+{
+	width: 100%;
+	border-left: 10px solid silver;
+	border-right: 10px solid silver;
+	border-bottom: 10px solid silver;
+}
+
+#display
+{
+	float: left;
+	overflow: hidden;
+	width: 70%;
+	background-color: yellow;
+}
+
+#display form table
+{
+	margin-top:20px; 
+	width: 100%;
+}
+
+#userdisplay tr td
+{
+	padding: 10px;
+	text-align: center;
+}
+
+#userdisplay tr td a
+{
+	text-decoration: none;
+	padding: 10px;
+}
+
+#userdisplay tr td a:hover
+{
+	background-color: red;
+	color: white;
+}
+
+
+#exam-subject
+{
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	background-color: yellow;
+}
+
+
+#exam-subject form table
+{
+	margin-top:20px; 
+	width: 100%;
+}
+
+#exam-subject tr td
+{
+	padding: 10px;
+	text-align: center;
+}
+
+#exam-subject tr td a
+{
+	text-decoration: none;
+	padding: 10px;
+}
+
+#exam-subject tr td a:hover
+{
+	background-color: red;
+	color: white;
+}
+
+#admin-ques-add form table
+{
+	background-color: skyblue;
+	width: 100%;
+}
+
+#upload-button
+{
+	margin-left: 40%;
+	width: 25%;
+	padding: 2%;
+	border: transparent;
+}
+
+
+#upload-button:hover
+{
+	background-color: #00FA9A;
+	color: white;
+	font-weight: bold;
+}
+
+#user-login-data
+{
+	background-color: red;
+}
+
+#user-login-data table
+{
+	color: white;
+	width: 100%;
+	text-align: center;
+}
+
+#user-subject-exam
+{
+}
+
+#user-subject-exam form
+{
+}
+
+#user-subject-exam form table
+{
+	font-size: 22px;
+	text-transform: uppercase;
+	padding: 10px;
+	width: 100%;
+}
+
+#user-subject-exam form table #left
+{
+	text-align: left;
+}
+
+#user-subject-exam form table #right
+{
+	text-align: right;
+}
+
+#user-subject-exam form table tr td
+{
+	padding: 10px;
+}
+
+#user-subject-exam form table tr td a
+{
+	text-decoration: none;
+}
+
+#que-display
+{
+	background-color: pink;
+}
+
+#que-display form table
+{
+	text-align: center;
+ 	width: 100%;
+}
+
+.funbutton
+{
+	border: transparent;
+	background-color: skyblue;
+	color: white;
+	text-transform: capitalize;
+	padding: 10px;
+}
+
+.funbutton:hover
+{
+	background-color: green;
+}
+
+#op
+{
+	text-transform: lowercase;
+	padding: 20px;
+	background-color: red;
+}
+
+#display-result
+{
+	float: left;
+	overflow: hidden;
+	width: 100%;
+	background-color: yellow;
+}
+
+#display-result table
+{
+	margin-top:20px; 
+	width: 100%;
+}
